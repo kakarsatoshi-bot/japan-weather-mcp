@@ -1,0 +1,24 @@
+version: 1
+name: japan-weather-mcp
+displayName: "Japan Weather MCP"
+description: "Get Japan weather forecasts powered by official JMA (Japan Meteorological Agency) data. Ask: What is today's weather in Tokyo? Show me the weekly forecast for Osaka. What cities are supported?"
+category: data
+tags:
+  - weather
+  - japan
+  - forecast
+  - jma
+  - meteorology
+  - japanese-weather
+
+install:
+  type: remote
+  url: https://japan-weather-mcp.tsukuras-jp.workers.dev/mcp
+
+author: Tsukuras
+homepage: https://tsukuras.jp
+repository: https://github.com/kakarsatoshi-bot/japan-weather-mcp
+license: MIT
+
+documentation:
+  readme: README.md

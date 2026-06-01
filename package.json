@@ -1,0 +1,19 @@
+{
+  "name": "japan-weather-mcp",
+  "version": "1.0.0",
+  "description": "Japan Weather MCP — Cloudflare Workers + TypeScript, powered by JMA forecast data",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "*",
+    "agents": "*",
+    "zod": "*"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "*",
+    "typescript": "*",
+    "wrangler": "*"
+  }
+}
