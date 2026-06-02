@@ -1,7 +1,7 @@
 version: 1
 name: japan-weather-mcp
 displayName: "Japan Weather MCP"
-description: "Get Japan weather forecasts powered by official JMA (Japan Meteorological Agency) data. Ask: What is today's weather in Tokyo? Show me the weekly forecast for Osaka. What cities are supported?"
+description: "Get weather forecasts for Japanese cities from the Japan Meteorological Agency (気象庁JMA). Supports today/tomorrow and 7-day weekly forecasts."
 category: data
 tags:
   - weather
